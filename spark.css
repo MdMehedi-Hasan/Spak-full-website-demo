@@ -1,0 +1,602 @@
+*{margin:0px;padding:0px;}
+body{
+	max-width:1263px;
+}
+header{
+	height:90px;
+	overflow:hidden;
+}
+.icon{
+	width: 100px;
+    height: 80px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+	color:blue;
+}
+.branding{
+	width: 140px;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom:30px;
+	margin-left: -62px;
+	font-family:engravers MT;
+	color:#716b6bf5;
+}
+.logo{
+	max-height:80px;
+	max-width:300px;
+}
+.logo:hover{
+	cursor:pointer;
+}
+.one{
+	font-size:31px;
+}
+.two{
+	font-size:10px;
+}
+.list ul li{
+	display:inline-block;
+    margin-right:40px;
+}
+.list ul li:hover{
+	cursor:pointer;
+	color:#189bda;
+}
+.list{
+	width: 650px;
+    float: right;
+    margin-top:-45px;
+}
+.imagee{
+	width:1263px;
+	height:800px;
+	background-image:url('https://cf.ltkcdn.net/jobs/images/orig/206522-2121x1414-electrician.jpg');
+	display:cover;
+}
+.overlay{
+	width:100%;
+	height:100%;
+	background-color:#39a4ffbf;
+}
+.text{
+	font-size:30px;
+	width: 600px;
+    position: absolute;
+    top: 350px;
+    left: 45px;
+    color: white;
+}
+.text span{
+	font-size:17px;
+}
+.form{
+	background-color:#ececec;
+	font-family:dubai light;
+	width:400px;
+	height:700px;
+	border:1px solid #ececef;
+	position:relative;
+	top:60px;
+	left:810px;
+	animation:my 2s;
+}
+@keyframes my {
+  0% {top:500px;}
+  100% {top:60px;}
+}
+
+.form input{
+	width: 342px;
+    height: 37px;
+    margin-bottom:25px;
+	margin-left: 25px;
+	background-color:#ffffff;
+	border:0px;
+	padding-left:10px;
+}
+
+.form h3{
+	font-size: 24px;
+    line-height: 63px;
+    margin-left: 24px;
+}
+.form span{
+	margin-left:24px;
+	line-height: 75px;
+}
+
+#message{
+	padding-bottom:125px;
+	
+}
+.call{
+	margin-left: 25px;
+	border:1px #e8e8e8b8;
+	padding:9px 9px 9px 9px;
+	width:120px;
+	text-align:center;
+	color:#42e1f1;
+	font-family:dubai light;
+	background-color: #ffff;
+}
+.call:hover{
+	background-color:#54595d;
+	color:white;
+	cursor:pointer;
+}
+.know_more{
+	border:1px solid #ececef;
+	font-size:15px;
+	width:110px;
+	padding:12px 14px 12px 14px;
+	margin-top:40px;
+	background-color: white;
+    color: #458fce;
+}
+.know_more:hover{
+	background-color:#54595d;
+	color:white;
+	cursor:pointer;
+}
+.quality_work{
+	text-align:center;
+	width:800px;
+	margin:auto;
+	margin-top:80px;
+	border-bottom:1px solid black;
+}
+.quality_work h1{
+	font-size:45px;
+}
+.quality_work p{
+    margin-top:50px;
+	font-family:dubai light;
+	margin-bottom:60px;
+}
+.female_section{
+	display:flex;
+	position:relative;
+	font-family:dubai light;
+	height:450px;
+}
+
+.female_img{
+	position:absolute;
+	top:59px;
+	left:170px;
+}
+.des{
+	position:absolute;
+	top: 50px;
+    left: 610px;
+}
+.list_two{
+	margin-top:32px;
+}
+.more{
+	border:1px solid #ececef;
+	font-size:15px;
+	width:110px;
+	padding:12px 20px 8px 30px;
+	margin-top:40px;
+	position: absolute;
+    top: 340px;
+    left: 610px;
+	background-color:#189bda;
+	color:white;
+}
+.more:hover{
+	background-color:#54595d;
+	color:white;
+	cursor:pointer;
+}
+#two{
+	
+	width:1263px;
+}
+.icon_one{
+	display:flex;
+}
+footer{
+	background-color:#0d1d27;
+	color:white;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#footer_two{
+	width:178px;
+	float:right;
+}
+#footer_one{
+	margin-left:20px;
+	width: 450px;
+    float: left;
+}
+.demo_icons_one{
+	max-width:1263.33px;
+	display:flex;
+	height:280px;
+	margin-top:85px;
+}
+.demo_icons_two{
+	max-width:1263.33px;
+	display:flex;
+	height:280px;
+	
+}
+
+.demo_icons div{
+	width:421.1px;
+	text-align:center;
+	background-color:#ffffff;
+}
+.demo_icons i{
+	font-size:65px;
+}
+.demo_icons h2{
+	padding:25px 0px 15px 0px;
+}
+.demo_icons span{
+	line-height:22px;
+}
+.three_div{
+	display:flex;
+	text-align:center;
+	max-height:800px;
+	background-color:#f9f9f9;
+	padding: 150px 0px 150px;
+}
+.three_div h1{
+	font-size: 49px;
+    font-family: dubai light;
+    margin-left: 45px;
+	margin-top: 60px;
+}
+.three_div img{
+	width: 89px;
+    height: 13px;
+    margin-left: -188px;
+}
+.one_div i{
+	font-size:50px;
+	color:#3f7ae6;
+	margin-top: 45px;
+	margin-bottom:45px;
+}
+.one_div span i{
+	color: #3f7ae6;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 45px;
+    margin-right: -2px;
+}
+.one_div span{
+	color:#3f7ae6;
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+}
+.one_div span:hover{
+	background-color:#54595d;
+	color:white;
+	cursor:pointer;
+}
+.one_div h3{
+	margin-bottom:25px;
+}
+.one_div{
+	margin-left:112px;
+	background-color:black;
+	color:white;
+	background-image:url('https://www.skillhire.com.au/wp-content/uploads/2020/04/electrician.jpg');
+	background-size: 235px 365px;
+	background-repeat:no-repeat;
+	width: 225px;
+    height: 345px;
+}
+.one_div div{
+	background-color:#000000d6;
+	background-size: 235px 365px;
+	width:100%;
+	height:100%	
+}
+.one_div p{
+	font-family:dubai light;
+	line-height:22px;
+}
+.two_div{
+	margin-left:34px;
+	background-color:black;
+	color:white;
+	background-image:url('https://previews.123rf.com/images/jumbi/jumbi1506/jumbi150600026/41980212-pvc-scrap-of-electric-wire-texture-background.jpg');
+	background-size: 235px 365px;
+	background-repeat:no-repeat;
+	width: 225px;
+    height: 345px;
+}
+.two_div i{
+	font-size:50px;
+	color:#3f7ae6;
+	margin-top: 45px;
+	margin-bottom:45px;
+}
+.two_div span i{
+	color: #3f7ae6;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 45px;
+    margin-right: -2px;
+}
+.two_div span{
+	color:#3f7ae6;
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+}
+.two_div span:hover{
+	background-color:#54595d;
+	color:white;
+	cursor:pointer;
+}
+.two_div h3{
+	margin-bottom:25px;
+}
+.two_div div{
+	background-color:#000000d6;
+	background-size: 235px 365px;
+	width:100%;
+	height:100%	
+}
+.two_div p{
+	font-family:dubai light;
+	line-height:22px;
+}
+.four_div{
+	margin-left:34px;
+	background-color:black;
+	color:white;
+	background-image:url('https://media.istockphoto.com/photos/electrician-measurements-with-multimeter-tester-system-ready-picture-id949711426?k=6&m=949711426&s=612x612&w=0&h=hDBm2asFMLYxHxj7RzWGP1hgbxjIEb7P0cTuHraNOwk=');
+	background-size: 235px 365px;
+	background-repeat:no-repeat;
+	width: 225px;
+    height: 345px;
+}
+.four_div i{
+	font-size:50px;
+	color:#3f7ae6;
+	margin-top: 45px;
+	margin-bottom:45px;
+}
+.four_div span i{
+	color: #3f7ae6;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 45px;
+    margin-right: -2px;
+}
+.four_div span{
+	color:#3f7ae6;
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+}
+.four_div span:hover{
+	background-color:#54595d;
+	color:white;
+	cursor:pointer;
+}
+.four_div h3{
+	margin-bottom:25px;
+}
+.four_div div{
+	background-color:#000000d6;
+	background-size: 235px 365px;
+	width:100%;
+	height:100%	
+}
+.four_div p{
+	font-family:dubai light;
+	line-height:22px;
+}
+#last_form{
+	color:white;
+	margin:auto;
+	background-color:#2b88fb;
+	width:1200px;
+	height:600px;
+	max-width:1263px;
+}
+#last_form input{
+	position: relative;
+    top: -85px;
+    left: 465px;
+    width: 283px;
+    height: 45px;
+	margin-bottom: 15px;
+	border:1px solid white;
+	border-radius:2px;
+}
+#button_last{
+	 color:#3f7ae6;
+	 background-color: white;
+	 padding: 15px 40px 15px 40px;
+	 position:relative;
+	 bottom:67px;
+	 left:465px;"
+}
+#button_last:hover{
+	cursor:pointer;
+	background-color:#54595d;
+	color:white;
+}
+.icon_two{
+	width: 100px;
+    height: 80px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+	color:blue;
+}
+.branding_two{
+	width: 140px;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom:30px;
+	margin-left: -62px;
+	font-family:engravers MT;
+	color:#716b6bf5;
+}
+.logo_two{
+	max-height:880px;
+	max-width:400px;
+	position:relative;
+	top:60px;
+}
+.logo_two p{
+	position:relative;
+	top:-15px;
+	left:25px;
+	font-family:dubai light;
+}
+#last_work{
+	max-width:1263px;
+	height:350px;
+	overflow:hidden;
+}
+#last_work img{
+	width:500px;
+	position:relative;
+	top:-303px;
+	right:-730px;
+}
+.list_ten{
+	width:200px;
+	font-family:dubai light;
+	position:relative;
+	top:-137px;
+	left:483px;
+	
+}
+.list_ten i{
+	color:#797979cf;
+}
+#very_last{
+	max-width:200px;
+	display:flex;
+	position:relative;
+	top:60px;
+	left:27px;
+}
+#very_last div{
+	text-align:center;
+	background-color:#525151;
+	color:white;
+	width:30px;
+	height:30px;
+	padding-top:12px;
+	padding-left:5px;
+	padding-right:5px;
+}
+#very_last div:hover{
+	cursor:pointer;
+	background-color:#3f7ae6;
+}
+#residential_img_section{
+	width:1263px;
+	height:293px;
+	display:flex;
+	color:white;
+}
+.residence_one{
+	background-image:url('https://jooinn.com/images/residence-1.jpg');
+	background-size:421px;
+	width:421px;
+	height:293px;
+	text-align:center;
+	
+}
+.residence_one h2{
+	position:relative;
+    top:50px;
+	}
+
+.residence_one p{
+	margin-top:25px;
+	font-family:dubai light;
+	position:relative;
+    top:50px;
+}
+.last_residence{
+	background-color:#00000080;
+	width:421px;
+	height:293px;
+}
+.residence_two{
+	background-image:url('middle.jpg');
+	background-size:cover;
+	width:421px;
+	height:293px;
+    text-align:center;
+}
+.last_residence_two{
+	background-color:#58adeaad;
+	width:421px;
+	height:293px;
+}
+.residence_two h2{
+	position:relative;
+    top:50px;
+	}
+
+.residence_two p{
+	margin-top:25px;
+	font-family:dubai light;
+	position:relative;
+    top:50px;
+}
+
+.residence_three{
+	background-image:url('https://suez.azureedge.net/-/media/suez-global/images/header/e-secteurs/power-industry.jpg?v=1&d=20180820T152259Z');
+	background-size:421px;
+	width:421px;
+	height:293px;
+	text-align:center;
+	
+}
+.residence_three h2{
+	position:relative;
+    top:50px;
+	}
+
+.residence_three p{
+	margin-top:25px;
+	font-family:dubai light;
+	position:relative;
+    top:50px;
+}
+.last_residence_three{
+	background-color:#00000096;
+	width:421px;
+	height:293px;
+}
+.moree{
+	font-size:15px;
+	color:blue;
+	position:relative;
+	top:90px;
+	padding: 12px 25px 12px 25px;
+	width:110px; 
+	height:20px;
+	margin:auto;
+	background-color:white;
+	font-size:17px;
+}
+.moree:hover{
+	background-color:#54595d;
+	cursor:pointer;
+	color:white;
+	transition:.4s;
+}
